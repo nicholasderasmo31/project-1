@@ -12,3 +12,25 @@ endingSound.play().catch(function () {
 });
 }
 
+
+
+
+const paragraphs = document.querySelectorAll('p');
+
+paragraphs.forEach(function (p,index) {
+    const fullText = p.textContent.trim();
+    p.textContent = '';
+    let charIndex = 0;
+    const speed = 30;
+
+    function type() {
+        if (charIndex < fullText.length) {
+            p.textContent += fullText.charAt(charIndex);
+            charIndex++;
+            setTimeout(type, speed);
+
+        }
+    }
+
+setTimeout(type, index * fullText.length * speed + index * 500);
+});

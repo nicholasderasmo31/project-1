@@ -127,3 +127,11 @@ img {
         background-attachment: scroll;
     }
 }
+
+@media (max-width: 600px) {
+    .choose-img {
+        width:100%;
+        max-width: 350px;
+        height: auto;
+    }
+}

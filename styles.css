@@ -116,3 +116,14 @@ align-items: center;
 gap: 2rem;
 
 }
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+}

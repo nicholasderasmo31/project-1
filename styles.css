@@ -133,3 +133,13 @@ gap: 2rem;
        
     }
 }
+
+.green-highlight {
+    border: 4px solid green;
+    box-shadow: 0 0 15px rgba(46, 204, 113, 0.6);
+}
+
+.red {
+    border: 4px solid rgb(228, 0, 0);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}

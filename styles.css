@@ -130,8 +130,8 @@ img {
 
 @media (max-width: 600px) {
     .choose-img {
-        width:100%;
-        max-width: 350px;
+        width:60vw;
+        max-width: 280px;
         height: auto;
     }
 }

@@ -143,3 +143,8 @@ gap: 2rem;
     border: 4px solid rgb(228, 0, 0);
     box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
 }
+
+.black{
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgba(19, 19, 19, 0.6);
+}

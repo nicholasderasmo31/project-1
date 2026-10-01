@@ -36,9 +36,11 @@ h4 {
     margin-bottom: 5vh;
 }
 
-.next-button img {
+.next-button img,
+.back-button img {
 width: 175px;
-height: auto;
+height: 175px;
+object-fit: contain;
 transition: transform 0.2s;
 }
 
@@ -49,12 +51,6 @@ transition: transform 0.2s;
 
 .back-button{
     margin-bottom: 5vh;
-}
-
-.back-button img {
-width: 175px;
-height: auto;
-transition: transform 0.2s;
 }
 
 .back-button img:hover {
